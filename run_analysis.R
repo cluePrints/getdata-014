@@ -36,4 +36,4 @@ aggregated <- aggregate(
     extractedData[,-c(activityColIdx,subjectColIdx)], 
     list(activity=extractedData$activity, subject=extractedData$subject), 
     FUN="mean")
-write.table("aggregated.txt", row.name=FALSE)
+write.table(aggregated, file="aggregated.txt", row.name=FALSE)

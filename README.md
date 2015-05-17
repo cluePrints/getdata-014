@@ -15,4 +15,6 @@ Check training data folder is direct child of the current
     train
 
 ## Details about the tidy dataset
-See [CodeBook.md](CodeBook.md)
+For the transformations & data source see [CodeBook.md](CodeBook.md)
+
+End result is [aggregated.txt](aggregated.txt)
